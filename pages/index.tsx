@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <a href="https://polpetch.me">Polpetch.me</a>
+          <a href="https://polpetch.me">Polpetch</a>
         </h1>
 
         <p className={styles.description}>
