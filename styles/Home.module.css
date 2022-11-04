@@ -4,12 +4,11 @@
 
 .main {
   min-height: 100vh;
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
 }
 
 .footer {
   padding-top: 1rem;
-  padding-bottom: 1rem;
   border-top: 1px solid #00000074;
   justify-content: center;
   align-items: center;
@@ -28,15 +27,25 @@
 .title a:hover,
 .title a:focus,
 .title a:active {
-  color: #FF7D63; 
-  text-decoration: underline;
+  color: #FF7D63;
+  /* text-decoration: underline; */
 }
 
 .title {
   padding-bottom: 5px;
-  border-bottom: .9px solid #00000074;
   line-height: 1.15;
   font-size: 4rem;
+}
+
+.menu {
+  line-height: 1.2;
+  font-size: 1.2rem;
+  text-align: left;
+  display: inline;
+}
+
+.menu li {
+  list-style-type: none;
 }
 
 .title,
@@ -45,7 +54,6 @@
 }
 
 .description {
-  margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -64,7 +72,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+
 }
 
 .card {
@@ -76,7 +84,7 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  max-width: 400px;
 }
 
 .card:hover,
