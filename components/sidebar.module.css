@@ -1,0 +1,38 @@
+.nav {
+  float: right;
+  width: 30%;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav a{
+  cursor: pointer;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.title {
+  margin-bottom: 0;
+  font-size: 23px;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact p {
+  padding-right: 13px;
+}
+
+.footer {
+  display: flex;
+}
+
+.footer a 
+.footer a:hover{
+  text-decoration: none;
+}
