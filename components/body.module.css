@@ -1,9 +1,28 @@
 .body {
-  width: 67%;
+  width: 73%;
   float: left;
 }
 
 .index {
   margin-top: 31px;
   margin-bottom: 0px;
+}
+
+.post {
+  margin-top: 16px;
+  display: flex;
+}
+
+.imageWraper {
+  width: 54%;
+  min-width: 54%;
+  padding: 3px;
+}
+
+.content {
+  margin-left: 29px;
+}
+
+.content p {
+  margin-bottom: -6px;
 }

@@ -8,9 +8,10 @@ export default function Sidebar() {
       <div className={styles.info}>
         <p style={{ fontSize: '16px', marginBottom: '0px' }}>ABOUT</p>
         <p style={{ fontSize: '15px', marginTop: '7px' }} > 
-          a Full Stack Developer, loved to explore unique design trends
-          <br/> have a background in Computer Science from Bangkok University,
-          <br/> with an emphasis on Web Development. 
+          a Web Developer
+          <br/> loved to explore unique design trends
+          <br/> have a background in Computer Science from Bangkok University
+
         </p>
       </div>
       <hr/>

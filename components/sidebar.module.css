@@ -1,6 +1,8 @@
 .nav {
-  float: right;
-  width: 30%;
+  right: 0;
+  width: 26%;
+  position: fixed;
+  margin-right: 10px;
 }
 
 .nav ul {
